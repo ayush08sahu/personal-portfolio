@@ -6,7 +6,7 @@ const projects = [
     title: "Imagify – AI Text to Image Generator SaaS Website",
     description:
       "Imagify is a full-stack AI-powered application that transforms text prompts into stunning images within seconds. It features seamless integration with the ClipDrop API for high-quality image generation and uses the Razorpay Payment Gateway for secure transactions. Built with React, Tailwind CSS, Express.js, Node.js, and MongoDB, Imagify offers a fast, intuitive interface for users to unleash their creativity and manage payments with ease",
-    image: "/public/projects/project 1.png",
+    image: "https://i.pinimg.com/736x/1b/ab/48/1bab485834699b97af8d068b41f65e40.jpg",
     tags: [
       "React",
       "Tailwind CSS",
