@@ -6,7 +6,7 @@ const projects = [
     title: "Imagify – AI Text to Image Generator SaaS Website",
     description:
       "Imagify is a full-stack AI-powered application that transforms text prompts into stunning images within seconds. It features seamless integration with the ClipDrop API for high-quality image generation and uses the Razorpay Payment Gateway for secure transactions. Built with React, Tailwind CSS, Express.js, Node.js, and MongoDB, Imagify offers a fast, intuitive interface for users to unleash their creativity and manage payments with ease",
-    image: "https://i.pinimg.com/736x/1b/ab/48/1bab485834699b97af8d068b41f65e40.jpg",
+    image: "https://i.pinimg.com/1200x/85/7f/5a/857f5a93a358ba764a1189f6b997b26d.jpg",
     tags: [
       "React",
       "Tailwind CSS",
@@ -26,7 +26,7 @@ const projects = [
     title: "AI Resume Maker – Build Professional Resumes Instantly",
     description:
       "AI Resume Maker helps users generate tailored, professional resumes in minutes using AI. Just provide a brief about yourself, and the AI takes care of the rest. This full-stack application is developed using React, Tailwind CSS, daisyUI, and Spring Boot, with advanced language capabilities powered by Deepseek AI through the Ollama LLM model.",
-    image: "/public/projects/project 2.png",
+    image: "https://i.pinimg.com/1200x/23/47/5e/23475eca79d99cf8fee65c5eb1da0a1f.jpg",
     tags: [
       "React",
       "Tailwind CSS",
@@ -43,7 +43,7 @@ const projects = [
     title: "Apple India – E-commerce Website Clone",
     description:
       "A visually accurate and responsive front-end clone of the official Apple India website, built using HTML, Tailwind CSS, and JavaScript. This project replicates Apple’s iconic design, smooth user interactions, and product-focused layout. Ideal for showcasing front-end development skills, clean UI implementation, and responsive design techniques.",
-    image: "/public/projects/project 3.png",
+    image: "https://i.pinimg.com/1200x/dc/f1/5e/dcf15e06fcb31f804eeb31b1f35d318b.jpg",
     tags: ["HTML", "Tailwind CSS", "JavaScript"],
     demoUrl: "#",
     gitHubUrl: "#",
@@ -53,7 +53,7 @@ const projects = [
     title: "TripHub – Online Travel Journal",
     description:
       "A clean and modern travel website landing page created using HTML, CSS, and JavaScript. TripHub features a responsive layout, smooth navigation, and engaging visuals designed to inspire users to plan their next adventure. Perfect for showcasing UI design skills and static front-end development.",
-    image: "/public/projects/project 4.png",
+    image: "https://i.pinimg.com/1200x/83/2f/13/832f1398cf099f1a38e1ae840c63c742.jpg",
     tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "#",
     gitHubUrl: "#",
