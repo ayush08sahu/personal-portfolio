@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Imagify – AI Text to Image Generator SaaS Website",
     description:
-      "Imagify is a full-stack AI-powered application that transforms text prompts into stunning images within seconds. It features seamless integration with the ClipDrop API for high-quality image generation and uses the Razorpay Payment Gateway for secure transactions. Built with React, Tailwind CSS, Express.js, Node.js, and MongoDB, Imagify offers a fast, intuitive interface for users to unleash their creativity and manage payments with ease",
+      "Imagify is a full-stack AI-powered application that transforms text prompts into stunning images within seconds. It features seamless integration with the ClipDrop API for high-quality image generation and uses the Razorpay Payment Gateway for secure transactions. Built with React, Tailwind CSS, Express.js, Node.js, and MongoDB, Imagify offers a fast, intuitive interface for users to unleash their creativity and manage payments ease.",
     image: "https://i.pinimg.com/1200x/85/7f/5a/857f5a93a358ba764a1189f6b997b26d.jpg",
     tags: [
       "React",
@@ -18,8 +18,8 @@ const projects = [
       "ClipDrop API",
       "Razorpay Payment Gateway",
     ],
-    demoUrl: "#",
-    gitHubUrl: "#",
+    demoUrl: "https://imagify-frontend-diw1.onrender.com",
+    gitHubUrl: "",
   },
   {
     id: 2,
@@ -35,8 +35,6 @@ const projects = [
       "Deepseek AI",
       "Ollama LLM Model",
     ],
-    demoUrl: "#",
-    gitHubUrl: "#",
   },
   {
     id: 3,
@@ -45,8 +43,7 @@ const projects = [
       "A visually accurate and responsive front-end clone of the official Apple India website, built using HTML, Tailwind CSS, and JavaScript. This project replicates Apple’s iconic design, smooth user interactions, and product-focused layout. Ideal for showcasing front-end development skills, clean UI implementation, and responsive design techniques.",
     image: "https://i.pinimg.com/1200x/dc/f1/5e/dcf15e06fcb31f804eeb31b1f35d318b.jpg",
     tags: ["HTML", "Tailwind CSS", "JavaScript"],
-    demoUrl: "#",
-    gitHubUrl: "#",
+    demoUrl: "https://effortless-sunshine-012b7d.netlify.app/",
   },
   {
     id: 4,
@@ -55,8 +52,6 @@ const projects = [
       "A clean and modern travel website landing page created using HTML, CSS, and JavaScript. TripHub features a responsive layout, smooth navigation, and engaging visuals designed to inspire users to plan their next adventure. Perfect for showcasing UI design skills and static front-end development.",
     image: "https://i.pinimg.com/1200x/83/2f/13/832f1398cf099f1a38e1ae840c63c742.jpg",
     tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "#",
-    gitHubUrl: "#",
   },
 ];
 
@@ -99,7 +94,8 @@ const ProjectSection = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
-                {/* <div className="flex justify-between items-center">
+                {/* this */}
+                <div className="flex justify-between items-center">
                 <div className="flex space-x-3">
                   <a
                     href={project.demoUrl}
@@ -116,7 +112,8 @@ const ProjectSection = () => {
                     <Github size={20} />
                   </a>
                 </div>
-                </div> */}
+                </div>
+                {/* this */}
               </div>
             </div>
           ))}
